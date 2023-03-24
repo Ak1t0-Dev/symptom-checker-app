@@ -1,0 +1,28 @@
+#main-container {
+    border: 3px solid black;
+    background-color: white;
+    padding: 1rem;
+    width: 500px;
+    height: 70vh;
+}
+
+.symptoms-input {
+    display: none;
+}
+
+.symptoms-span {
+    display: block;
+    color: black;
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.symptoms-input:checked+.symptoms-span {
+    color: yellowgreen;
+    background: black;
+    border: 2px solid black
+}

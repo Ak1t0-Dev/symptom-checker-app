@@ -1,0 +1,7 @@
+#main-container {
+    border: 3px solid black;
+    background-color: white;
+    padding: 1rem;
+    width: 500px;
+    height: 70vh;
+}
