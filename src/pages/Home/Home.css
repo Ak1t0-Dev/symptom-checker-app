@@ -1,5 +1,5 @@
 body {
-    background-color: #096148;
+    background-color: #FCFAF2;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -9,12 +9,23 @@ body {
 
 h1 {
     display: inline;
+    font-size: 2.5rem;
+    margin: 0 0.5rem 0 0;
 }
 
 #main-container {
-    border: 3px solid black;
-    background-color: white;
-    padding: 1rem;
+    position: relative;
+    border: 3px solid #0C0C0C;
+    background-color: #FFFFFB;
+    padding: 1.5rem;
     width: 500px;
     height: 70vh;
+}
+
+#main-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 2rem 0;
 }
