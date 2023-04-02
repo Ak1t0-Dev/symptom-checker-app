@@ -1,0 +1,54 @@
+.symptoms {
+    height: 52vh;
+    overflow: auto;
+}
+
+.symptoms-input {
+    display: none;
+}
+
+.symptoms-span {
+    display: block;
+    color: #2EA9DF;
+    font-size: 1.2rem;
+    border: 2px solid #2EA9DF;
+    border-radius: 0.3rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.symptoms-input:checked+.symptoms-span {
+    color: #FFFFFB;
+    background: #2EA9DF;
+    border: 2px solid #2EA9DF
+}
+
+.button-field {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.button {
+    /* position: absolute;
+    bottom: 2rem;
+    left: 50%; */
+    /* transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%); */
+    width: 40%;
+    padding: 0.7rem;
+    font-size: large;
+    background-color: #FCFAF2;
+    color: #0C0C0C;
+    border: 2px solid #0C0C0C;
+    transition: all .5s;
+}
+
+.button:hover {
+    background-color: #0C0C0C;
+    color: #FCFAF2;
+    border: 2px solid #FCFAF2;
+}
